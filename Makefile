@@ -20,10 +20,10 @@ CFLAGS := -Wall
 all: $(TARGET)
 
 $(TARGET): $(OBJ_FILES_LIST)
-	$(CC) $(CFLAGS) -o $(BIN_DIR)/$(TARGET) $(OBJ_FILES)
+	$(CC) $(CFLAGS) -o bin/$(TARGET) $(OBJ_FILES)
 
 main.o:
-	$(CC) $(CFLAGS) -c -o $(OBJ_DIR)/main.o ./src/main.c
+	$(CC) $(CFLAGS) -c -o obj/main.o ./src/main.c
 
 .PHONY: clean
 clean:

@@ -20,11 +20,16 @@ git clone https://github.com/rymeng/copytf.git
 
 cd copytf
 
+mkdir bin
+
+mkdir obj
+
 make
 
 #Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
+2024-03-10 Version 1.0.1: Fix bugs in Makefile & README file Version 1.1
 
 #Author
 
