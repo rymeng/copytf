@@ -4,11 +4,8 @@ int main(void)
 {
 	int c = 0;
 
-	c = getchar();
-	while (c != EOF) {
+	while ((c = getchar()) != EOF)
 		putchar(c);
-		c = getchar();
-	}
 
 	return 0;
 }

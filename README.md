@@ -6,7 +6,7 @@ This program can be used to copying a text file (ASCII Code).
 
 ## Prerequisites
 
-System: GNU/Linux
+System: GNU/Linux x86\_64
 
 Compiler: GCC(All Versions)
 
@@ -22,6 +22,10 @@ cd copytf
 
 make
 
+cd bin
+
+./copytf.x86\_64
+
 # Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
@@ -31,6 +35,8 @@ make
 2024-03-10 Version 1.0.2: Optimize Makefile (Create obj and bin folder automatically) & README file Version 1.2
 
 2024-03-10 Version 1.0.3: Fix bugs in README.md & README file Version 1.3
+
+2024-03-22 Version 1.1.0: Modify code style to enhance code readability && README file Version 1.4
 
 # Author
 
