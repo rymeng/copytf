@@ -22,18 +22,22 @@ cd copytf
 
 make
 
-#Release History
+# Release History
 
 2024-03-10 Version 1.0.0: Implement basic functions & README file Version 1.0
+
 2024-03-10 Version 1.0.1: Fix bugs in Makefile & README file Version 1.1
+
 2024-03-10 Version 1.0.2: Optimize Makefile (Create obj and bin folder automatically) & README file Version 1.2
 
-#Author
+2024-03-10 Version 1.0.3: Fix bugs in README.md & README file Version 1.3
+
+# Author
 
 Rainer Yutai Meng
 
 E-mail: rainer.yutai.meng@gmail.com
 
-#License
+# License
 
 GNU General Public License(GPL) v2.0
