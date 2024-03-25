@@ -5,7 +5,7 @@ CC := gcc
 RM := rm -rf
 MKDIR := mkdir -p
 
-TARGET := copytf.x86_64
+TARGET := copytf.$(shell uname -m)
 
 VPATH := src
 SRC_DIR := ./src
